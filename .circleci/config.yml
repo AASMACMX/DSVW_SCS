@@ -19,5 +19,4 @@ jobs:
             --tenant $CX_TENANT \
             --client-id $CX_CLIENT_ID \
             --client-secret $CX_CLIENT_SECRET \
-            --apikey $CX_API_KEY \
             --async
