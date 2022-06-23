@@ -10,7 +10,7 @@ jobs:
           command: |
             /app/bin/cx \
             scan create \
-            -s ./ \
+            -s https://github.com/AASMACMX/DSVW_SCS.git \
             --client-id $CX_CLIENT_ID \
             --client-secret $CX_CLIENT_SECRET \
             --tenant $CX_TENANT \
